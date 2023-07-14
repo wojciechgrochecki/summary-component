@@ -13,6 +13,7 @@ dist-ssr
 *.local
 README.md
 style-guide.md
+design
 
 # Editor directories and files
 .vscode/*
@@ -24,6 +25,7 @@ style-guide.md
 *.njsproj
 *.sln
 *.sw?
+
 
 .DS_Store
 .prettierignore

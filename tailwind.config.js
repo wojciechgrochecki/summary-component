@@ -2,10 +2,6 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    screens: {
-      sm: "375px",
-      lg: "1440px",
-    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
@@ -16,10 +12,10 @@ export default {
       "cobalt-blue": "hsl(234, 85%, 45%)",
 
       //gradients
-      "light-slate-blue":"hsl(252, 100%, 67%)",
-      "light-royal-blue":"hsl(241, 81%, 54%)",
-      "violet-blue":"hsla(256, 72%, 46%, 1)",
-      "persian-blue":"hsla(241, 72%, 46%, 0)",
+      "grad-light-slate-blue": "hsl(252, 100%, 67%)",
+      "grad-light-royal-blue": "hsl(241, 81%, 54%)",
+      "grad-violet-blue": "hsla(256, 72%, 46%, 1)",
+      "grad-persian-blue": "hsla(241, 72%, 46%, 0)",
 
       //neutral
       white: "hsl(0, 0%, 100%)",
@@ -27,7 +23,17 @@ export default {
       "light-lavender": "hsl(241, 100%, 89%)",
       "dark-gray-blue": "hsl(224, 30%, 27%)",
     },
-    extend: {},
+    fontWeight: {
+      normal: "500",
+      medium: "700",
+      bold: "800",
+    },
+    extend: {
+      screens: {
+        mobile: "375px",
+        desktop: "1440px",
+      },
+    },
   },
   plugins: [],
 };
