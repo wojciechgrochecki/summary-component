@@ -3,8 +3,8 @@ import { ReactSVG } from "react-svg";
 export default function ResultSummary() {
   return (
     <div
-      className=" mx-auto flex flex-col font-normal 
-      shadow-2xl md:mt-20 md:w-[700px] md:flex-row md:rounded-[2.5rem]"
+      className=" flex flex-col font-normal 
+      md:w-[700px]  md:flex-row md:rounded-[2.5rem] md:shadow-2xl"
     >
       <div
         className="flex w-full flex-col items-center justify-center overflow-hidden rounded-b-[2.5rem] bg-gradient-to-t from-grad-light-royal-blue
